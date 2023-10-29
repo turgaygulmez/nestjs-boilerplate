@@ -24,11 +24,13 @@ git clone https://github.com/turgaygulmez/nestjs-boilerplate.git
 npm install
 ```
 
-3- Set environment variables, defined [here](#environments)
+3- Create a postgresql database if you dont have any
 
-4- Set JWT token roles [here](https://github.com/turgaygulmez/nestjs-boilerplate/blob/main/src/constants/roles.ts)
+4- Set environment variables, defined [here](#environments)
 
-5- Run the project on development mode
+5- Set JWT token roles [here](https://github.com/turgaygulmez/nestjs-boilerplate/blob/main/src/constants/roles.ts)
+
+6- Run the project on development mode
 
 ```sh
 npm run start:dev
